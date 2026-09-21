@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/QuestionsTest.java",
+      "testCases": [
+        {
+          "methodName": "testQuestion1",
+          "label": "Verify question1 returns the integer value of π",
+          "description": "Checks that question1() returns the integer result of casting Math.PI to an int."
+        },
+        {
+          "methodName": "testQuestion2",
+          "label": "Verify question2 calculates 2^4 minus 4",
+          "description": "Checks that question2() returns the integer result of (int) Math.pow(2, 4) - 4."
+        },
+        {
+          "methodName": "testQuestion3",
+          "label": "Verify question3 returns the expected transformed string",
+          "description": "Builds a substring from \"xdeiDgnirtSwLskdu\", reverses it, lowercases it, and verifies that question3() returns an equivalent string (case- and whitespace-insensitive)."
+        }
+      ]
+    }
+  ]
+}
