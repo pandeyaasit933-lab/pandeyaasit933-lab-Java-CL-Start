@@ -36,7 +36,7 @@ public class Questions {
      * @return - a String whose text is the datatype of the value we expect should be returned from the "honk" method
      */
     public String question3() {
-        return ("HONNNK");
+        return ("STRING");
     }
 
 }
