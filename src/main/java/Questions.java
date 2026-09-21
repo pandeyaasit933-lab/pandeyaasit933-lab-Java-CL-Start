@@ -10,7 +10,7 @@ public class Questions {
      * @return - a number representing how many variables are in the "Vehicle" class
      */
     public int question1() {
-        return 5;
+        return 3;
     }
 
     /**
@@ -23,7 +23,7 @@ public class Questions {
      * @return - a number representing the line number that indicates the end of the "accelerate" method
      */
     public int question2() {   
-        return 10;
+        return 12;
     }
 
     /**
@@ -36,7 +36,7 @@ public class Questions {
      * @return - a String whose text is the datatype of the value we expect should be returned from the "honk" method
      */
     public String question3() {
-        return "HONNNK";
+        return ("HONNNK");
     }
 
 }
